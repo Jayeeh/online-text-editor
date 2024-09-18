@@ -1,44 +1,52 @@
-.bold {
-    font-weight: bold;
+/* Center align text and set font for the entire body */
+body {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  /* Style for the image */
+  img {
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+  
+  /* Style for the buttons */
+  button {
+    margin: 5px; /* Space around the buttons */
+    border-radius: 5px; /* Rounded corners for the buttons */
+    border: 1px solid; /* Border for the buttons */
+    color: #4D4D87; /* Text color */
+    background-color: #D9E8FB; /* Background color */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Style for the input field */
+  #words {
+    border-radius: 5px; /* Rounded corners for the input field */
+    margin: 5px; /* Space around the input field */
+    height: auto; /* Auto height */
+    border: 1px solid black; /* Border color */
+    padding: 10px; /* Space inside the input field */
+  }
+  
+  /* Style for the main heading */
+  h1 {
+    text-align: center; /* Center align the heading */
+  }
+  
+  /* Classes for text formatting */
+  .bold {
+    font-weight: bold; /* Bold text */
   }
   
   .italic {
-    font-style: italic;
+    font-style: italic; /* Italic text */
   }
   
   .underline {
-    text-decoration: underline;
+    text-decoration: underline; /* Underlined text */
   }
   
   .mono {
-    font-family: monospace;
+    font-family: monospace; /* Monospace font */
   }
   
-  img {
-    width: 250px;
-  }
-  
-  body {
-    height: 500px;
-  }
-  
-  #words {
-    border-radius: 5px;
-    margin: 5px;
-    height: auto;
-    border: 1px solid black;
-    padding: 10px;
-  }
-  
-  button {
-    border-radius: 5px;
-    margin: 5px;
-    font-weight: bold;
-    color: #4D4D87;
-    border: 1px solid;
-    background-color: #D9E8FB;
-  }
-  
-  h1 {
-    text-align: center;
-  }

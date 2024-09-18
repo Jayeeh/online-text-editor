@@ -1,14 +1,20 @@
 <!doctype html>
 <html>
   <head>
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- Main heading for the page -->
     <h1>WordSmith</h1>
+    
+    <!-- Section for setting text color -->
     <div>
       <button onclick="setColor()">Set Color</button>
-      <input type="value">
+      <input type="value" placeholder="Enter color value">
     </div>
+    
+    <!-- Section for text formatting buttons -->
     <div>
       <button onclick="toggleUnderline()">Underline</button>
       <button onclick="toggleItalic()">Italic</button>
@@ -16,10 +22,13 @@
       <button onclick="toggleMonospace()">Monospace</button>
       <button onclick="removeFormat()">Remove Format</button>
     </div>
+    
+    <!-- Input field for user text -->
     <div>
-      <input id="words" style="height:100px;width:250px"
-        placeholder="write your text here" />
+      <input id="words" style="height:100px;width:250px" placeholder="Write your text here" />
     </div>
+    
+    <!-- Link to external JavaScript file for functionality -->
     <script src="script.js"></script>
   </body>
 </html>
